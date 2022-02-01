@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: #00a2c6;
+}
+
+h3{
+    color: #00a2c6;
+}
+
+footer{
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+}
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    font-weight: bold;
+}
+.profile header{
+    text-align: center;
+}
+footer{
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+}
+.featured-image{
+    width: 50%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: ;
+}
+.profile-img{
+    width: 200px;
+    border-radius: 50%;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgb(0, 0 , 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;   
+}
+
+.card-mini{
+    box-shadow: 0 4px 8px 0 rgb(0, 0 , 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    height: 285px
+}
+.jumbotron{
+    font-size: 20px;
+    padding: 60px;
+    background-color: #00c8eb;
+    text-align: center;
+    color: white;
+}
+header{
+    display: inline;
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+nav{
+    background-color: #00a2c6;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+main{
+    padding: 20px;
+    overflow: auto;
+}
+
+
+.left {
+    width: 50%;
+    height: 100%;
+ 
+    /* digunakan untuk memindahkan posisi elemen ke sisi kiri container */
+    float: left;   
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    padding-left:20px;
+    
+    /* digunakan untuk memindahkan posisi elemen ke sisi kanan container */
+    float: right;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {width: 90%; background-color: #00c8eb;}
+  .css {width: 65%; background-color: #00c8eb;}
+  .js {width: 25%; background-color: #00c8eb;}
+
+#project, #contact{
+    float: right;
+    width: 100%;
+}
+
+.project-img{
+    width: 35%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myProject{
+    text-align: center;
+}
+
+.project-img2{
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #00a2c6;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #00a2c6;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #057e99;
+  }
+  
+  .container-form {
+    border-radius: 5px;
+    background-color: #3ad3ee;
+    padding: 20px;
+  }
+
+@media screen and (max-width: 1000px){
+    .right, 
+    .left,
+    #project,
+    #contact { 
+        width: 100%;
+        padding:0;
+    }
+    .project-img2{
+        width:350px;
+      }
+      .featured-image,
+      .project-img{
+        width:90%;
+      }
+      .container-form{
+        margin:25px;
+      }
+      h2{
+        text-align:center;
+      }
+}
+
+@media screen and (max-width: 365px){
+    .project-img2{
+         width:300px;
+       }
+ 
+ }

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MuHifni - WebPortfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/styles/style.css">
+
+    </head>
+    <body>
+        <header>
+        <div class="jumbotron">
+            <img src="assets/image/profile.jpeg" class="profile-img" alt="foto-profile">
+            <h1>Muhammad Hifni</h1>
+            <!-- lang="id" adalah atribut dan id adalah nilai dari atribut.  Atribut ini berfungsi memberikan informasi tambahan pada sebuah elemen. -->
+            <p lang="id" translate="no">OTW Web Developer</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">project</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <main>
+            <div id="content">
+                <div class="left">
+                    <article id="aboutMe" class="card">
+                        <img src="assets/image/about.png" class="featured-image" alt="about me">
+                        <h2>About Me</h2>
+                        <p>Hallo, nama saya Muhammad Hifni biasa dipanggil Hifni. Sejak kecil, saya suka bermain dengan komputer. Karena itu, sekarang saya coba mendalami bidang yang saya sukai dengan sekolah di perguruan tinggi dengan mengambil jurusan Teknik komputer</p>
+                    </article>
+                </div>
+ 
+                <div class="right">
+                    <article id="skills" class="card">
+                        <img src="assets/image/skill.png" class="featured-image" alt="skill">
+                        <h2>Skills</h2>
+                        <p>HTML</p>
+                        <div class="container">
+                        <div class="skills html">90%</div>
+                        </div>
+
+                        <p>CSS</p>
+                        <div class="container">
+                        <div class="skills css">65%</div>
+                        </div>
+
+                        <p>JavaScript</p>
+                        <div class="container">
+                        <div class="skills js">25%</div>
+                        </div>
+                    </article>
+                </div>
+                <div id="project" class="card">
+                    <img src="assets/image/project.png" class="project-img" alt="My Project">
+                    <h2>Project</h2>
+                    <div class="left">
+                        <article class="card-mini myProject">
+                            <img src="assets/image/bandung-blog.PNG" class="project-img2" alt="blog">
+                            <h3>Blog</h2>
+                        </article>
+                    </div>
+                    <div class="right">
+                        <article class="card-mini myProject">
+                            <img src="assets/image/web-calculator.PNG" class="project-img2 " alt="web-calculator">
+                            <h3>Web Calculator</h2>
+                        </article>
+                    </div>
+                </div>
+                <div id="contact" class="card">
+                    <img src="assets/image/contacts.png" class="project-img" alt="contact">
+                    <h2>Contact Me</h2>
+                    <div class="container-form">
+                        <form action="/action_page.php">
+                          <label for="fname">First Name</label>
+                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      
+                          <label for="lname">Last Name</label>
+                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      
+                          <label for="subject">Subject</label>
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      
+                          <input type="submit" value="Submit">
+                        </form>
+                      </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>MuHifni Web Portfolio &#169; 2020</p>
+        </footer>
+    </body>
+</html>
